@@ -1,9 +1,7 @@
-<!-- 2. Update api article thêm params categoryId
-3. Tìm hiểu nestjs/swagger. update các đầu api. -->
-<!-- - thêm @ApiBearerAuth() đối với các API cần auth. -->
-<!-- - Cập nhật Dto body cho các api -->
-
-<!-- 4. thêm api getMany article -->
+ 2. Update api article thêm params categoryId
+3. Tìm hiểu nestjs/swagger. update các đầu api. 
+thêm @ApiBearerAuth() đối với các API cần auth. 
+ Cập nhật Dto body cho các api 4. thêm api getMany article 
 
 
 5. Cập thiết kế DB
