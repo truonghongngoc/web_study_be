@@ -22,10 +22,11 @@ công nghệ công cụ : nestjs
 tạo dự án :
 $ npm i -g @nestjs/cli
 $ nest new project-name
- nest g controller user 
+ nest g controller( user )
 bảo mật : JWT(json web token): mã hóa thông tin người dùng trong token
  . authguard: kiểm tra token. nếu hợp lệ ->cho phép truy cập thông tin người dùng. không hợp lệ -> lỗi 401
-các hàm trong prisma:create,findMany,update,delete
+ 
+các hàm trong prisma:create,findMany(one),update,delete
 xử ý dữ liệu : prisma (npx prisma migrate dev)
  .@ApiGuard:mô tả thuộc tính cho Swagger API Docs.
     @ApiBearerAuth(): thêm xác thực vào token
