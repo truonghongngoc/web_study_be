@@ -34,8 +34,7 @@ model Article {
   author     User?    @relation(fields: [authorId], references: [id])
   authorId   Int?
 
- comments  Comment[] // Một bài viết có nhiều bình luận
-  actions   PostAction[] // Một bài viết có nhiều hành động
+  comments  Comment[] // Một bài viết có nhiều bình luận
 }
 
 model Comment {
